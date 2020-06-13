@@ -19,6 +19,6 @@ I have trained it on Google Colab for 30 epochs with a batch size of 32.
 
 ## Conclusions
 1. CNN Model is good to start with, for image recognition.  
-2. Keras is a great easy-to-use library for implementing neural networks.  
-2. Since the training accuracy is 1.0000 but test accuracy is 0.99460, so the model can be inproved by increasing its depth/ adding more layers. The little problem is high variance. (I will try to improve it.)  
-3. I have trained the model using both GPU and TPU, and found that, TPU is faster for higher batch sizes(>256) whereas GPU is faster for lower batch sizes.  
+2. Keras is great, easy-to-use library for implementing neural networks.  
+3. Since the training accuracy is 1.0000 but test accuracy is 0.99460, so the model can be inproved by increasing its depth/ adding more layers. The little problem is high variance. (I will try to improve it.)  
+4. I have trained the model using both GPU and TPU, and found that, TPU is faster for higher batch sizes(>256) whereas GPU is faster for lower batch sizes.  
