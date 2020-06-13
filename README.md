@@ -3,7 +3,7 @@ CNN Model to recognize Digits from Images from MNIST Data with accuracy of 99.46
 MNIST Digit Recognition dataset is a great dataset with 60000 training examples and 10000 testing examples.  
 
 ## CNN Model
-I have used a sequential model with following layers:  
+I have used a sequential model with following layers in order:  
 1. 2D Convolution Layer with 32 filters and 3x3 kernal size.  
 2. 2D Maximum Pooling Layer with 2x2 kernal size.  
 3. 2D Convolution Layer with 64 filters and 2x2 kernal size.  
