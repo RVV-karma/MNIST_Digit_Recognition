@@ -1,5 +1,5 @@
 # MNIST_Digit_Recognition
-CNN Model to recognize Digits from Images from MNIST Data with accuracy of **99.46%**  
+CNN Model to recognize Digits from Images from MNIST Data with accuracy of **99.46%**.  
 MNIST Digit Recognition dataset is a great dataset with 60000 training examples and 10000 testing examples.  
 
 ## CNN Model
@@ -12,9 +12,9 @@ I have used a sequential model with following layers in order:
 6. Flatten Layer.  
 7. Dense Layer with 1024 neurons (activation units).  
 8. Dense Layer with 256 neurons (activation units).  
-9. Dense Layer with 10 neurons (activation units). This is the output layer  
+9. Dense Layer with 10 neurons (activation units). This is the output layer.  
 
-The optimizer used is Stochastic Gradient Descent (SGD) with learning rate of 0.01 and momentum of 0.9  
+The optimizer used is Stochastic Gradient Descent (SGD) with learning rate of 0.01 and momentum of 0.9.  
 I have trained it on Google Colab for 30 epochs with a batch size of 32.  
 
 ## Conclusions
